@@ -60,6 +60,7 @@ export default {
 				'gradient-primary': 'var(--gradient-primary)',
 				'gradient-secondary': 'var(--gradient-secondary)',
 				'gradient-background': 'var(--gradient-background)',
+				'gradient-radial': 'radial-gradient(ellipse at center, var(--tw-gradient-stops))',
 			},
 			boxShadow: {
 				'glow': 'var(--hover-glow)',
@@ -90,7 +91,13 @@ export default {
 			},
 			animation: {
 				'accordion-down': 'accordion-down 0.2s ease-out',
-				'accordion-up': 'accordion-up 0.2s ease-out'
+				'accordion-up': 'accordion-up 0.2s ease-out',
+				'pulse-gentle': 'pulse-gentle 4s ease-in-out infinite',
+				'wave-diagonal': 'wave-diagonal 15s linear infinite',
+				'wave-diagonal-reverse': 'wave-diagonal-reverse 20s linear infinite',
+				'glow-blue': 'glow-blue 6s ease-in-out infinite',
+				'glow-purple': 'glow-purple 8s ease-in-out infinite',
+				'glow-pink': 'glow-pink 7s ease-in-out infinite'
 			}
 		}
 	},

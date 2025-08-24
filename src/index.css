@@ -57,10 +57,40 @@
   }
 }
 
-/* AI Particle Animation */
+/* Subtle Light Pulse Animations */
 @keyframes float {
   0%, 100% { transform: translateY(0) rotate(0deg); }
   50% { transform: translateY(-20px) rotate(180deg); }
+}
+
+@keyframes pulse-gentle {
+  0%, 100% { opacity: 0.3; }
+  50% { opacity: 0.6; }
+}
+
+@keyframes wave-diagonal {
+  0% { transform: translateX(-100%) translateY(-100%) rotate(45deg); }
+  100% { transform: translateX(100vw) translateY(100vh) rotate(45deg); }
+}
+
+@keyframes wave-diagonal-reverse {
+  0% { transform: translateX(100vw) translateY(-100%) rotate(-45deg); }
+  100% { transform: translateX(-100%) translateY(100vh) rotate(-45deg); }
+}
+
+@keyframes glow-blue {
+  0%, 100% { opacity: 0.1; transform: scale(1); }
+  50% { opacity: 0.3; transform: scale(1.1); }
+}
+
+@keyframes glow-purple {
+  0%, 100% { opacity: 0.1; transform: scale(1.1); }
+  50% { opacity: 0.3; transform: scale(1); }
+}
+
+@keyframes glow-pink {
+  0%, 100% { opacity: 0.1; transform: scale(1.05); }
+  50% { opacity: 0.3; transform: scale(1.15); }
 }
 
 @keyframes pulse-glow {

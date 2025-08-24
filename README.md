@@ -29,8 +29,8 @@ This application serves as a trigger interface for an AI Agent that:
 - **Gradient Hero Section** - Dynamic pink-to-purple gradients with animations
 - **Interactive Loader** - Smooth animations during webhook processing
 - **Success Toast Notifications** - Real-time feedback system
-- **Animated Background** - Floating AI particles and gradient effects
-- **Responsive Navbar** - Glass morphism design with hover effects
+- **Subtle Light Pulse Animation** - Smooth glowing gradient transitions with diagonal wave movement
+- **Responsive Navbar with Dropdowns** - Glass morphism design with hover-triggered dropdown menus
 - **Time-based Greetings** - Personalized messages based on local time
 - **Mobile-First Design** - Fully responsive across all devices
 
@@ -58,6 +58,7 @@ You can also customize:
 - Color scheme in `src/index.css`
 - Button text and animations
 - Background effects and particles
+- **Dropdown Menu Items** in `src/components/Navbar.tsx` - Customize Account and Settings menu options
 
 ## 🚀 Quick Deployment
 
