@@ -1,73 +1,96 @@
-# Welcome to your Lovable project
+# AI Insights Agent - Competitor Intelligence Platform
 
-## Project info
+A modern, responsive web application that triggers an AI Agent workflow to gather competitor intelligence and market insights, delivering automated email summaries to Product Managers.
 
-**URL**: https://lovable.dev/projects/e51949d3-2db9-4d66-a0cf-aa50b636d68c
+## 🚀 Project Description
 
-## How can I edit this code?
+This application serves as a trigger interface for an AI Agent that:
+- Searches the internet for competitor updates and market trends
+- Analyzes competitive intelligence data using AI APIs
+- Generates comprehensive email summaries with actionable insights
+- Delivers reports directly to Product Managers within 3-4 minutes
 
-There are several ways of editing your application.
+## 🔄 How It Works
 
-**Use Lovable**
+1. **Click the Trigger Button** - Activates the AI Agent workflow
+2. **Make.com Webhook Processing** - Initiates the data collection process
+3. **AI Agent Data Collection** - Searches and analyzes competitor information
+4. **Email Delivery** - Receives summarized insights within 3-4 minutes
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/e51949d3-2db9-4d66-a0cf-aa50b636d68c) and start prompting.
+## 👥 Team Information
 
-Changes made via Lovable will be committed automatically to this repo.
+- **Owner**: Ganesh K Gowda
+- **AI Agent Stack**: Make.com + AI APIs + Web Scraping
+- **UI Stack**: React + Vite + TailwindCSS + TypeScript
+- **Deployment**: Optimized for Vercel hosting
 
-**Use your preferred IDE**
+## ✨ UI Highlights
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+- **Gradient Hero Section** - Dynamic pink-to-purple gradients with animations
+- **Interactive Loader** - Smooth animations during webhook processing
+- **Success Toast Notifications** - Real-time feedback system
+- **Animated Background** - Floating AI particles and gradient effects
+- **Responsive Navbar** - Glass morphism design with hover effects
+- **Time-based Greetings** - Personalized messages based on local time
+- **Mobile-First Design** - Fully responsive across all devices
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+## 🎨 Design Features
 
-Follow these steps:
+- **Modern Glass Morphism** - Transparent elements with backdrop blur
+- **Gradient Animations** - Smooth color transitions and hover effects
+- **AI-Themed Particles** - Floating elements for futuristic ambiance
+- **Pulsing Glow Effects** - Interactive button animations
+- **Inter Font Family** - Clean, professional typography
+- **Dark Theme** - Optimized for modern interfaces
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+## ⚙️ Customization
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+To customize the webhook endpoint:
 
-# Step 3: Install the necessary dependencies.
-npm i
+```javascript
+// In src/components/Hero.tsx, update the handleClick function:
+window.open('YOUR_CUSTOM_WEBHOOK_URL', '_blank');
+```
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+You can also customize:
+- User name in the greeting
+- Email delivery timing
+- Color scheme in `src/index.css`
+- Button text and animations
+- Background effects and particles
+
+## 🚀 Quick Deployment
+
+Deploy instantly with Vercel:
+
+1. Connect your GitHub repository
+2. Deploy with one click
+3. Your AI Agent trigger is live!
+
+```bash
+# For local development
+npm install
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+## 🔧 Tech Stack
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+- **Frontend**: React 18 + TypeScript
+- **Styling**: TailwindCSS + Custom CSS
+- **Build Tool**: Vite
+- **UI Components**: Radix UI + Custom Components
+- **Icons**: Lucide React
+- **Notifications**: Sonner Toast
+- **Backend**: Make.com Webhook Integration
 
-**Use GitHub Codespaces**
+## 📱 Browser Support
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+- Chrome (recommended)
+- Firefox
+- Safari
+- Edge
+- Mobile browsers
 
-## What technologies are used for this project?
+---
 
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/e51949d3-2db9-4d66-a0cf-aa50b636d68c) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+*Built with ❤️ for modern Product Management workflows*
