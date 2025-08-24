@@ -1,4 +1,4 @@
-# AI Insights Agent - Competitor Intelligence Platform
+# Competizen - AI Competitor Intelligence Platform
 
 A modern, responsive web application that triggers an AI Agent workflow to gather competitor intelligence and market insights, delivering automated email summaries to Product Managers.
 
@@ -27,10 +27,11 @@ This application serves as a trigger interface for an AI Agent that:
 ## ✨ UI Highlights
 
 - **Gradient Hero Section** - Dynamic pink-to-purple gradients with animations
+- **Confirmation Message** - Users receive feedback that they can safely exit after triggering
 - **Interactive Loader** - Smooth animations during webhook processing
 - **Success Toast Notifications** - Real-time feedback system
 - **Subtle Light Pulse Animation** - Smooth glowing gradient transitions with diagonal wave movement
-- **Responsive Navbar with Dropdowns** - Glass morphism design with hover-triggered dropdown menus
+- **Responsive Navbar with Dropdowns** - Glass morphism design with Account and Settings dropdown menus
 - **Time-based Greetings** - Personalized messages based on local time
 - **Mobile-First Design** - Fully responsive across all devices
 
@@ -94,4 +95,4 @@ npm run dev
 
 ---
 
-*Built with ❤️ for modern Product Management workflows*
+*Built with ❤️ for modern Product Management workflows by Competizen*

@@ -21,7 +21,7 @@ export const Navbar = () => {
             className="w-10 h-10 animate-pulse-glow"
           />
           <span className="text-xl font-semibold text-foreground">
-            AI Insights
+            Competizen
           </span>
         </div>
 

@@ -1,10 +1,11 @@
 import { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
-import { Loader2, Sparkles } from "lucide-react";
+import { Loader2, Sparkles, CheckCircle } from "lucide-react";
 import { useToast } from "@/hooks/use-toast";
 
 export const Hero = () => {
   const [loading, setLoading] = useState(false);
+  const [showConfirmation, setShowConfirmation] = useState(false);
   const [greeting, setGreeting] = useState("");
   const { toast } = useToast();
 
@@ -42,6 +43,12 @@ export const Hero = () => {
         duration: 4000,
       });
       
+      // Show confirmation message
+      setTimeout(() => {
+        setLoading(false);
+        setShowConfirmation(true);
+      }, 2000);
+      
     } catch (error) {
       toast({
         title: "Error",
@@ -49,9 +56,7 @@ export const Hero = () => {
         variant: "destructive",
         duration: 4000,
       });
-    } finally {
-      // Keep loading state for a moment to show the animation
-      setTimeout(() => setLoading(false), 2000);
+      setLoading(false);
     }
   };
 
@@ -96,6 +101,16 @@ export const Hero = () => {
               </>
             )}
           </Button>
+          
+          {/* Confirmation Message */}
+          {showConfirmation && (
+            <div className="mt-6 flex items-center justify-center gap-2 text-green-400 animate-fade-in">
+              <CheckCircle className="w-5 h-5" />
+              <p className="text-sm font-medium">
+                Request received! The email will be sent within 3–4 minutes. You may safely exit this page.
+              </p>
+            </div>
+          )}
         </div>
 
         {/* Description */}
