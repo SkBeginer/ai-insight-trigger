@@ -1,102 +1,82 @@
-# Competizen - AI Competitor Intelligence Platform
+# **Competizen - AI Competitor Intelligence Platform**  
 
-A modern, responsive web application that triggers an AI Agent workflow to gather competitor intelligence and market insights, delivering automated email summaries to Product Managers.
-
-##Teamates: Ganesh H K and Sheetalkumar Chougala
-##Applications used to build this project: Make automation software and Lovable 
-##Direct link to App: https://ai-insight-trigger.lovable.app/
-
-## 🚀 Project Description
-
-This application serves as a trigger interface for an AI Agent that:
-- Searches the internet for competitor updates and market trends
-- Analyzes competitive intelligence data using AI APIs
-- Generates comprehensive email summaries with actionable insights
-- Delivers reports directly to Product Managers within 3-4 minutes
-
-## 🔄 How It Works
-
-1. **Click the Trigger Button** - Activates the AI Agent workflow
-2. **Make.com Webhook Processing** - Initiates the data collection process
-3. **AI Agent Data Collection** - Searches and analyzes competitor information
-4. **Email Delivery** - Receives summarized insights within 3-4 minutes
-
-## 👥 Team Information
-
-- **Owner**: Ganesh K Gowda
-- **AI Agent Stack**: Make.com + AI APIs + Web Scraping
-- **UI Stack**: React + Vite + TailwindCSS + TypeScript
-- **Deployment**: Optimized for Vercel hosting
-
-## ✨ UI Highlights
-
-- **Gradient Hero Section** - Dynamic pink-to-purple gradients with animations
-- **Confirmation Message** - Users receive feedback that they can safely exit after triggering
-- **Interactive Loader** - Smooth animations during webhook processing
-- **Success Toast Notifications** - Real-time feedback system
-- **Subtle Light Pulse Animation** - Smooth glowing gradient transitions with diagonal wave movement
-- **Responsive Navbar with Dropdowns** - Glass morphism design with Account and Settings dropdown menus
-- **Time-based Greetings** - Personalized messages based on local time
-- **Mobile-First Design** - Fully responsive across all devices
-
-## 🎨 Design Features
-
-- **Modern Glass Morphism** - Transparent elements with backdrop blur
-- **Gradient Animations** - Smooth color transitions and hover effects
-- **AI-Themed Particles** - Floating elements for futuristic ambiance
-- **Pulsing Glow Effects** - Interactive button animations
-- **Inter Font Family** - Clean, professional typography
-- **Dark Theme** - Optimized for modern interfaces
-
-## ⚙️ Customization
-
-To customize the webhook endpoint:
-
-```javascript
-// In src/components/Hero.tsx, update the handleClick function:
-window.open('YOUR_CUSTOM_WEBHOOK_URL', '_blank');
-```
-
-You can also customize:
-- User name in the greeting
-- Email delivery timing
-- Color scheme in `src/index.css`
-- Button text and animations
-- Background effects and particles
-- **Dropdown Menu Items** in `src/components/Navbar.tsx` - Customize Account and Settings menu options
-
-## 🚀 Quick Deployment
-
-Deploy instantly with Vercel:
-
-1. Connect your GitHub repository
-2. Deploy with one click
-3. Your AI Agent trigger is live!
-
-```bash
-# For local development
-npm install
-npm run dev
-```
-
-## 🔧 Tech Stack
-
-- **Frontend**: React 18 + TypeScript
-- **Styling**: TailwindCSS + Custom CSS
-- **Build Tool**: Vite
-- **UI Components**: Radix UI + Custom Components
-- **Icons**: Lucide React
-- **Notifications**: Sonner Toast
-- **Backend**: Make.com Webhook Integration
-
-## 📱 Browser Support
-
-- Chrome (recommended)
-- Firefox
-- Safari
-- Edge
-- Mobile browsers
+A modern, responsive web application that triggers an AI Agent workflow to gather competitor intelligence and market insights, delivering automated email summaries to Product Managers.  
 
 ---
 
-*Built with ❤️ for modern Product Management workflows by Competizen*
+## **👥 Team**
+
+- **Teammates**: Ganesh H K & Sheetalkumar Chougala  
+
+---
+
+## **🛠 Applications Used**
+
+- **Automation**: Make.com  
+- **Frontend Development**: Lovable  
+
+---
+
+## **🔗 Links**
+
+- **Demo Video**: [Google Drive Link Here](https://drive.google.com/file/d/1P7RooaKA332Uq21rfY8-lwDHoo_AY-hu/view?usp=sharing)  
+- **Live App**: [https://ai-insight-trigger.lovable.app/](https://ai-insight-trigger.lovable.app/)  
+
+---
+
+## **🚀 Project Description**
+
+Competizen acts as a trigger interface for an AI Agent that:  
+- Scans the internet for competitor updates and market trends  
+- Analyzes competitive intelligence data using AI-powered APIs  
+- Generates comprehensive, actionable email summaries  
+- Delivers insights directly to Product Managers within **3–4 minutes**  
+
+---
+
+## **🔄 Workflow**
+
+1. **Trigger the AI Agent** – Click the trigger button  
+2. **Webhook Processing** – Make.com webhook starts the workflow  
+3. **Data Collection & Analysis** – AI scrapes and processes competitor updates  
+4. **Automated Email Delivery** – Summarized report lands in the PM’s inbox  
+
+---
+
+## **👨‍💻 Technical Information**
+
+- **Owner**: Ganesh K Gowda & Sheetalkumar  
+- **AI Stack**: Make.com + AI APIs + Web Scraping  
+- **Frontend Stack**: React + Vite + TailwindCSS + TypeScript  
+- **Deployment**: Optimized for **Vercel Hosting**  
+
+---
+
+## **✨ UI Highlights**
+
+- **Gradient Hero Section** – Pink-to-purple animated gradients  
+- **Interactive Loader** – Smooth animations during processing  
+- **Success Toast Notifications** – Real-time triggers for user feedback  
+- **Time-based Greetings** – Dynamic messages based on user’s local time  
+- **Responsive Navbar** – Glass morphism style with dropdown menus  
+- **Mobile-First Design** – Seamless performance across all devices  
+
+---
+
+## **🎨 Design Features**
+
+- **Modern Glass Morphism** – Clean, transparent elements with backdrop blur  
+- **AI-Themed Particle Animations** – Floating, futuristic effects  
+- **Smooth Gradient Transitions** – Interactive hover animations  
+- **Pulsing Glow Effects** – Engaging button animations  
+- **Typography** – Clean, modern *Inter* font  
+- **Dark Theme** – Optimized for contemporary UI trends  
+
+---
+
+## **⚙️ Customization**
+
+To update the webhook endpoint:  
+```javascript
+// In src/components/Hero.tsx, update the handleClick function:
+window.open('YOUR_CUSTOM_WEBHOOK_URL', '_blank');
