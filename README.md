@@ -2,6 +2,10 @@
 
 A modern, responsive web application that triggers an AI Agent workflow to gather competitor intelligence and market insights, delivering automated email summaries to Product Managers.
 
+##Teamates: Ganesh H K and Sheetalkumar Chougala
+##Applications used to build this project: Make automation software and Lovable 
+##Direct link to App: https://ai-insight-trigger.lovable.app/
+
 ## 🚀 Project Description
 
 This application serves as a trigger interface for an AI Agent that:
